@@ -1,9 +1,5 @@
-# Project 1: Retail Sales Optimization
+# Project 2: Inventory Flow Optimization
 
-This project analyzes retail sales across branches.
-
-*Tools used:* Python, Pandas, Matplotlib, SQL
-
-*Outputs:*
-- Sales trends
-- Top-performing branches
+This project analyzes inventory movements between branches including stock in, out, and balance.
+- Tools: Python, Matplotlib, SQL
+- Outputs: Average stock balance chart, SQL query

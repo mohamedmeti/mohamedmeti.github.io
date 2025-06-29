@@ -1,6 +1,6 @@
 
--- Top selling branches
-SELECT Branch, SUM(Total_Sales) AS Total
-FROM sales_data
+-- Branches with highest average stock balance
+SELECT Branch, AVG(Stock_Balance) AS Avg_Balance
+FROM inventory_data
 GROUP BY Branch
-ORDER BY Total DESC;
+ORDER BY Avg_Balance DESC;
